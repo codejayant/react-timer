@@ -6,6 +6,7 @@ class Button extends React.Component {
       this.startTimer = this.startTimer.bind(this)
     }
     startTimer(event) {
+        this.props.setStartTime(this.props.time)
       return this.props.startTimer(this.props.time)
     }
     render() {
