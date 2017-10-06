@@ -43,7 +43,7 @@ class TimerWrapper extends React.Component {
     console.log('resuming time from time : ' + this.state.timeLeft)
     return this.startTimer(this.state.timeLeft)
   }
-  
+
   render() {
     return (
       <div className="row-fluid">
